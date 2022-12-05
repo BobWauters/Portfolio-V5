@@ -1,0 +1,348 @@
+body {
+  width:100vw;
+	height: 100vh;
+	background: black;
+	z-index: -1;
+	position: absolute;
+	transition: 0.3s;
+  
+
+}
+.social-links{
+color: black;
+}
+
+html {
+  width: 100%;
+  height: 100%;  
+}
+
+.navbar-default {
+  background-color: #191919 !important;
+  border-color:lightslategrey!important;
+}
+
+
+@media(min-width:767px) {
+  .navbar {
+    background: #222128;
+      padding: 20px 0;
+      -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+      transition: background .5s ease-in-out,padding .5s ease-in-out;
+  }
+
+  .top-nav-collapse {
+      padding: 0;
+  }
+}
+
+/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
+The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
+of those sections to manage the look and feel of the site. */
+
+.intro-section {
+  height: 100%;
+  padding-top: 150px;
+  text-align: center;
+  background: #1C2025;
+}
+
+.navbar-default .navbar-brand {
+  color: white !important;
+  
+}
+a:-webkit-any-link {
+  text-decoration: none;
+  color: -webkit-link;
+  cursor: pointer;
+}
+
+.github.fa.fa{
+  font-size: 360px;
+ 
+}
+
+.navbar-nav>li>a {
+  color: white !important;
+}
+
+body {
+  font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 15px !important;
+  line-height: 1.42857143;
+  color: white !important;
+  background-color: #fff;
+}
+.about-section {
+  height: 100%;
+  padding-top: 115px;
+  text-align: center;
+  background: #222831;
+  transition: 0.3s;
+}
+
+.services-section {
+  height: 140%;
+  padding-top: 115px;
+  text-align: center;
+  background:#1C2025;
+  
+}
+
+.contact-section {
+  height: 130%;
+  padding-top: 115px;
+  text-align: center;
+  background: #222831;
+}
+
+/*  IMAGE AND OVERLAY   */
+
+:root {
+  --width: 505px;
+}
+
+.bio-photo {
+  border-radius:50%;
+  display: block;
+  width: var(--width);
+  height: auto;
+  box-shadow:0 10px 10px rgba(0,0,0,0.5);
+  transition: .6s ease-out;
+}
+
+.img-hover {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: var(--width);
+  opacity: 0;
+  transition: .5s ease;
+  background: rgba(0,0,0,0.35);
+  border-radius:50%;
+  border: 1px solid black;
+
+
+}
+
+.image1-container{
+  padding-top: 250px;
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+}
+
+.overlay:hover  {
+  opacity: 1;
+}
+.social-links{
+  font-size: 36px;
+  padding:5px;
+}
+
+.hover-text {
+  transition: .5s ease;
+  position: absolute;
+  opacity:1;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.section-title{
+  height: 150px;
+  padding: -50px;
+  position: justify;
+  
+}
+
+h1{
+  color:#ffcf56 !important;
+}
+
+/* PORTFOLIO */
+
+*{
+  margin: 0px;
+  padding: 0px;
+ }
+ body{
+  font-family: arial;
+ }
+ .main{
+  margin: 4%;
+ }
+ 
+ .card{
+      width: 20%;
+      display: inline-block;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      margin: 1.5%;
+     }
+ 
+ .image img{
+   width: 100%;
+   border-top-right-radius: 5px;
+   border-top-left-radius: 5px;
+   
+ 
+  
+  }
+ 
+ .title{
+   text-align: center;
+   padding-top: 20px;
+  
+   
+  }
+
+ 
+ h4{
+   font-size: 20px;
+   color: #ffcf56 !important;
+  }
+ 
+ .des{
+   padding: 3px;
+   text-align: center;
+   padding-bottom: 20px;
+   border-bottom-right-radius: 5px;
+   border-bottom-left-radius: 5px;
+ }
+ button{
+   margin-top: 40px;
+   margin-bottom: 10px;
+   background-color: #191919;
+   border: 1px solid black;
+   border-radius: 5px;
+   padding:10px;
+ }
+ button:hover{
+   background-color: black;
+   color: #ffcf56;
+   transition: .5s;
+   cursor: pointer;
+ }
+
+
+ #second-place-icon{
+  width: 8%;
+ }
+
+ i{
+  color: #CECECE;
+  font-size: 1.4rem;;
+ }
+
+ /* */
+
+ *{
+  margin: 0;
+  padding: 0;
+  font-family: "montserrat", sans-serif;
+  box-sizing: border-box;
+  }
+
+  
+
+  .contact-info{
+    padding-top:5%;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+  .contact-info2{
+    padding-top:1;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .card2{
+    background: #2f3542;
+    width: 300px;
+    height: 200px;
+    padding:0 20px;
+    margin: 0 10px;
+    margin: 1.5%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    box-shadow: 2px 2px 20px black;
+    border-radius: 5px; 
+    }
+    .card-icon{
+    font-size: 28px;
+    background: #121212;
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    line-height: 60px !important;
+    border-radius: 50%;
+    }
+
+    .card3{
+      background: #2f3542;
+      width: 300px;
+      height: 200px;
+      margin: 0 10px;
+      margin: 1.5%;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      color: #fff;
+      box-shadow: 2px 2px 20px black;
+      border-radius: 5px; 
+      }
+    
+
+    p{
+  padding-top:13px;
+  padding-bottom:15
+ }
+ p2{
+
+  color: #FDDC49;
+  font-size: 1.7rem;
+}
+
+p3{
+  color: #FFCF56 !important;
+    }
+
+ p4{
+  padding-top:25px;
+  padding-bottom:15;
+  font-size:1.7rem;
+  
+ }
+
+ .fa {
+  display: inline-block;
+  font: normal normal normal 70px/1 FontAwesome !important;
+  font-size: inherit;
+  text-rendering: auto;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
